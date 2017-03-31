@@ -9,17 +9,20 @@ body, ul, li, h1, h2, h3, h4, h5, h6, p {
 
 /* Change colors when scheme is picked */
 .PrismicEdge {
-    background-color:darkturquoise;
+    background-color:ghostwhite;
     width: 100%;
 }
 
 header {
     background-color: aquamarine;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Slabo 27px', serif;
+    text-align: center;
+    font-size: 22px;
 }
 
 nav{
     display:inline;
+    font-size: 20px;
 }
 
 nav ul{
@@ -32,46 +35,46 @@ nav ul li{
 
 .Mainbody {
     background-color: white;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Slabo 27px', serif;
 }
 
-/* Intended height of banner image is 450px */
 .displaybanner {
     width: 100%;
-    height: 300px;
+    height: 64vh;
     background-color: darkgray;
-    font-family: 'Poppins', sans-serif;
+}
+
+.displaybanner p {
+    background-color: darkgray;
+    font-family: 'Slabo 27px', serif;
     text-align: center;
     font-size: 60px;
-    padding-top: 150px;
+    padding-top: 25vh;
 }
 
-.news {
+.News {
     background-color: white;
-    float: left;
-    width: 70%;
-    padding-left: 5%;
-    padding-right: 5%;
-    text-align: center;
+    height: 100vh;
 }
 
-.servershop {
-    text-align: center;
-    background-color: white;
-    width: 20%;
-    float: right;
+.News p {
+    font-family: 'Slabo 27px', serif;
 }
 
-.icon {
-    float: none;
-    width: 38px;
-    height: auto;
+/* font-family: 'Dancing Script', cursive; for signature in minor about */
+.Minorabout {
+    background-color: #ff4f7b;
+    height: 55vh;
+}
+
+.Minorabout p {
+    font-family: 'Slabo 27px', serif;
 }
 
 footer {
     float: none;
     background-color:deepskyblue;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Slabo 27px', serif;
 }
 
 footer ul{
@@ -80,4 +83,10 @@ footer ul{
 
 footer ul li{
     display:inline-block;
+}
+
+.icon {
+    float: none;
+    width: 38px;
+    height: auto;
 }
