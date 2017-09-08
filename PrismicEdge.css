@@ -15,17 +15,16 @@ body, ul, li, h1, h2, h3, h4, h5, h6, p {
 
 header {
     background-color: transparent;
-    font-family: 'Slabo 27px', serif;
     text-align: center;
-    font-size: 28px;
 }
 
 .nav {
   height: 90px;
     background-color: transparent;
-    font-family: 'Slabo 27px', serif;
+    font-family: 'Encode Sans Condensed', sans-serif;
     text-align: center;
-    font-size: 28px;
+    font-size: 35px;
+    color: white;
 }
 
 /*
@@ -51,15 +50,30 @@ nav ul li{
 .displaybanner {
     width: 100%;
     height: 80vh;
-    background-color: darkgray;
-    background-image: url(images/testimage.jpg);
+    background-image: url('images/testimage2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
-.displaybanner p {
-    font-family: 'Slabo 27px', serif;
-    text-align: center;
-    font-size: 60px;
-    padding-top: 25vh;
+.displaybanner h2 {
+    font-family: 'Encode Sans Condensed', sans-serif;
+    text-align: left;
+    font-size: 140px;
+    padding-top: 30vh;
+    color: white;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.displaybanner h3 {
+    font-family: 'Encode Sans Condensed', sans-serif;
+    text-align: left;
+    font-size: 90px;
+    padding-top: 1vh;
+    color: white;
+    padding-left: 8%;
+    padding-right: 8%;
 }
 
 .News {
